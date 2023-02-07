@@ -1,0 +1,4 @@
+get child files(like find)
+ - ps:  get-childitem -recurse .git/objects | select fullname
+ - cmd: dir /s /b
+	
