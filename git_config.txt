@@ -1,0 +1,4 @@
+
+Установка тулзы для разрешения конфликтов
+git config --global merge.tool p4merge
+git config --global mergetool.p4merge.cmd "p4merge.exe \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\""
