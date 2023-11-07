@@ -1,0 +1,2 @@
+-- Вход с рутовыми правами
+docker exec --user root -it broker1 /bin/bash
