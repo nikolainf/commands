@@ -9,3 +9,7 @@ cp -r directory_name .
 
 -- Копировать только содержимое папки в текущую папку
 cp -r directory_name/. .
+
+To view the contents of the os-release file, run the following command:
+
+cat /etc/os-release
