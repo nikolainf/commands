@@ -1,2 +1,5 @@
 -- Вход с рутовыми правами
 docker exec --user root -it broker1 /bin/bash
+
+-- Открыть информацию по контейнеру в vscode
+> docker container inspect container_name | code - "&"
